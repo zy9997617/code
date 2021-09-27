@@ -1,0 +1,24 @@
+TOP=.
+OUTPUT?=../../output
+include $(OUTPUT)/rules.mk
+
+#是否编译Debug版本
+DEBUG := N
+
+#是否编译为静态库
+STATICLIB := N
+
+LIBNAME := tdChart
+LIBCFLAGS :=
+LIBLDFLAGS := -ltdWidget -ltdX11 -ltdCore -ltdPaint
+LIBVERSION :=1.0
+LIBVERSION_SUB :=0
+LIBSRCS := src/main.c
+all: $(LIBNAME)
+
+clean: rules_clean
+
+install:
+
+include $(OUTPUT)/rules.mk
+#--------------------------------------------------------------#

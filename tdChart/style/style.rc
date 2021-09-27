@@ -1,0 +1,100 @@
+#进度条默认风格
+button {
+[nad]
+	bg="/tdGUI/res/tdwidget_style/button.png", stretch_hv3
+	border_margin=8
+	text_aline=text_left
+[s]
+	bg="/tdGUI/res/tdwidget_style/button_down.png", stretch_hv3
+}
+
+processbar_h_carrier{
+	bg="/tdGUI/res/tdwidget_style/process_h.png", stretch_hv3
+}
+
+processbar_h_thumb {
+	bg="/tdGUI/res/tdwidget_style/process_thumb_h.png", stretch_normal
+}
+
+processbar_h_process {
+	bg="/tdGUI/res/tdwidget_style/process_light_h.png", stretch_hv3
+}
+
+processbar_v_carrier{
+	bg="/tdGUI/res/tdwidget_style/process_v.png", stretch_hv3
+}
+
+processbar_v_thumb {
+	bg="/tdGUI/res/tdwidget_style/process_thumb_v.png", stretch_normal
+}
+
+processbar_v_process {
+	bg="/tdGUI/res/tdwidget_style/process_light_v.png", stretch_hv3
+}
+
+window {
+	bg="/tdGUI/res/tdwidget_style/window.png", stretch_normal
+}
+
+bool_button {
+[nad]
+	bg="/tdGUI/res/tdwidget_style/bool_button.png", stretch_normal
+	border_margin=8
+	text_aline=text_left
+[s]
+	bg="/tdGUI/res/tdwidget_style/bool_button_down.png", stretch_normal
+}
+
+text {
+	bg="/tdGUI/res/tdwidget_style/text.png", stretch_normal
+	font = "default-18"
+}
+
+textarea {
+	bg="/tdGUI/res/tdwidget_style/text.png", stretch_normal
+	font = "default-18"
+}
+
+
+scrollbar_h_left {
+	bg="/tdGUI/res/tdwidget_style/h_top.png",stretch_hv2
+}
+
+scrollbar_h_right{
+	bg="/tdGUI/res/tdwidget_style/h_bottom.png",stretch_hv2
+}
+
+scrollbar_h_thumb {
+	bg="/tdGUI/res/tdwidget_style/h_th.png",stretch_hv2
+}
+
+scrollbar_h_background {
+	bg="/tdGUI/res/tdwidget_style/h_bg.png",stretch_hv3
+}
+
+scrollbar_v_top {
+	bg="/tdGUI/res/tdwidget_style/v_top.png",stretch_hv2
+}
+
+scrollbar_v_bottom{
+	bg="/tdGUI/res/tdwidget_style/v_bottom.png",stretch_hv2
+}
+
+scrollbar_v_thumb {
+	bg="/tdGUI/res/tdwidget_style/v_th.png",stretch_hv2
+	image_aline=image_right
+}
+
+scrollbar_v_background {
+	bg="/tdGUI/res/tdwidget_style/v_bg.png",stretch_hv3
+	image_aline=image_right
+}
+
+chart.test{
+	bg = rgb(255,255,255)
+}
+chart.test2{
+	bg = rgb(255,0,0)
+}
+
+
